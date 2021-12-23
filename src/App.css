@@ -1,38 +1,61 @@
 .App {
-  text-align: center;
+  max-width: 860px;
+  margin: 40px auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+button {
+  background: none;
+  border: 2px solid white;
+  padding: 6px 12px;
+  margin: 5px;
+  border-radius: 4px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+button:hover {
+  background: rgb(92, 28, 129);
+  border: 2px solid white;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+button:disabled {
+  color: yellow;
+  opacity: 30%;
+  cursor:auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button:disabled:hover {
+  background: none;
+  color: yellow;
+  cursor:auto;
+}
+
+button.selected {
+  background: rgb(92, 28, 129);
+}
+
+.second-menu-button {
+  background: none;
+  border: 2px solid rgb(141, 72, 182);
+  padding: 6px 12px;
+  margin: 5px;
+  border-radius: 4px;
+  color: rgb(141, 72, 182);
+  font-weight:normal;
+  cursor: pointer;
+  font-size: 0.8em;
+}
+
+p {
+  font-size: 20px;
+}
+
+.card-grid{
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
 }
