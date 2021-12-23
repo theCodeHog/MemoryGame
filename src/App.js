@@ -3,39 +3,39 @@ import { useState, useEffect } from "react";
 import SingleCard from "./components/SingleCard";
 
 const disneyPrincesses = [
-  { src: "/img/snow1.png", matched: false },
-  { src: "/img/cinderella1.png", matched: false },
-  { src: "/img/aurora1.png", matched: false },
-  { src: "/img/ariel.png", matched: false },
-  { src: "/img/jasmine.png", matched: false },
-  { src: "/img/mulan.png", matched: false },
+  { src: "img/snow1.png", matched: false },
+  { src: "img/cinderella1.png", matched: false },
+  { src: "img/aurora1.png", matched: false },
+  { src: "img/ariel.png", matched: false },
+  { src: "img/jasmine.png", matched: false },
+  { src: "img/mulan.png", matched: false },
 ];
 
 const disneyHeroines = [
-  { src: "/img/esmeralda.png", matched: false },
-  { src: "/img/giselle.png", matched: false },
-  { src: "/img/jessica.png", matched: false },
-  { src: "/img/neverland-mermaids.png", matched: false },
-  { src: "/img/alice.png", matched: false },
-  { src: "/img/poca1.png", matched: false },
+  { src: "img/esmeralda.png", matched: false },
+  { src: "img/giselle.png", matched: false },
+  { src: "img/jessica.png", matched: false },
+  { src: "img/neverland-mermaids.png", matched: false },
+  { src: "img/alice.png", matched: false },
+  { src: "img/poca1.png", matched: false },
 ];
 
 const disney3DCharacters = [
-  { src: "/img/moana.png", matched: false },
-  { src: "/img/merida1.png", matched: false },
-  { src: "/img/elsa1.png", matched: false },
-  { src: "/img/elsa2.png", matched: false },
-  { src: "/img/rapunzel.png", matched: false },
-  { src: "/img/vanellope1.png", matched: false },
+  { src: "img/moana.png", matched: false },
+  { src: "img/merida1.png", matched: false },
+  { src: "img/elsa1.png", matched: false },
+  { src: "img/elsa2.png", matched: false },
+  { src: "img/rapunzel.png", matched: false },
+  { src: "img/vanellope1.png", matched: false },
 ];
 
 const characterMix = [
-  { src: "/img/rey1.png", matched: false },
-  { src: "/img/kylo.png", matched: false },
-  { src: "/img/daenerys.png", matched: false },
-  { src: "/img/cersei.png", matched: false },
-  { src: "/img/aurora2.png", matched: false },
-  { src: "/img/vanellope2.png", matched: false },
+  { src: "img/rey1.png", matched: false },
+  { src: "img/kylo.png", matched: false },
+  { src: "img/daenerys.png", matched: false },
+  { src: "img/cersei.png", matched: false },
+  { src: "img/aurora2.png", matched: false },
+  { src: "img/vanellope2.png", matched: false },
 ];
 
 function App() {
